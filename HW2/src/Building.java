@@ -64,8 +64,11 @@ public abstract class Building {
 	 * to add a person to that specific building
 	 * @param p Person object that will go into the building
 	 */
+	//PT -- maybe have this return boolean, in case add fails.
 	abstract void AddPerson(Person p);
 
+	//PT -- remove Person? -1
+	
 	/**
 	 * Abstract function that will be used by both City Hall and School
 	 * to list the names of the people in those buildings
