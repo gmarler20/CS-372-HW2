@@ -10,6 +10,7 @@ import java.util.Random;
  */
 public class Person {
 	private static int LASTNUMBER = 1111111;
+	//PT -- not all Persons are employees, so this shouldn't be here. -1
 	private static int EmployeeID = 00001;
 	private static int PersonID = 1;
 	private int number;
@@ -85,6 +86,7 @@ public class Person {
 	 * Set the age of the person
 	 * @param a specifies the age
 	 */
+	//PT -- validate the age and phone number. -2
 	public void SetAge(int a) {
 		age = a;
 	}
